@@ -40,7 +40,7 @@ import { relative } from "jsr:@std/path@^1.0.6/relative";
 import { resolve } from "jsr:@std/path@^1.0.6/resolve";
 import { SEPARATOR_PATTERN } from "jsr:@std/path@^1.0.6/constants";
 import { contentType } from "jsr:@std/media-types@^1.0.3/content-type";
-import { eTag, ifNoneMatch } from "jsr:@std/http/etag.ts^0.224.0";
+import { eTag, ifNoneMatch } from "./etag.ts";
 import {
   isRedirectStatus,
   STATUS_CODE,
